@@ -39,8 +39,8 @@ const Banner = () => {
               {movie?.title || movie?.name || movie?.original_name}
             </h1>
             <div className="banner buttons">
-                <button className='banner_button'>Play</button>
-                <button className='banner_button'>My List</button>
+                <button className='banner_button'>시청하기</button>
+                <button className='banner_button'>내 재생목록</button>
                 <h1 className='banner_description'>
                   {truncate(movie?.overview, 150)}
                 </h1>
